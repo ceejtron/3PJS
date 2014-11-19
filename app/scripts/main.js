@@ -19,9 +19,6 @@ domReady().then(function () {
         document.body.style.background = 'inherit';
     }
 
-
-    // This app is a bit different than a typical web app because our data is coming from the DOM.
-    // For that reason, we create an app view first, and that view bootstraps the app model.
     try {
 
         AppEnvironment.mainAppModel = new AppModel();

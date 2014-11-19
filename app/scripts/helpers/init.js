@@ -5,8 +5,6 @@ var Logging = require('mixins/Logging');
 var Backbone = require('backbone');
 require('backbone.nativeview');
 var AppLog = new (Backbone.Model.extend(Logging))();
-var themeName = location.hash.match(/bvseo-theme=theme\d/);
-themeName = themeName ? themeName[0].split('=')[1] : utils.getURLParameter('bvseo-theme');
 
 module.exports = {
     init : function () {
@@ -16,15 +14,8 @@ module.exports = {
             window.AppEnvironment = AppEnvironment;
         }
 
-        if (themeName) {
-            window.bvSEOThemeName = themeName;
-        }
-
         // Allow storage of logs for later retrieval
-        AppEnvironment.storeLogs = utils.getURLParameter('bvseo-store-logs') === 'true';
-
-        // Mixpanel is a global :(.
-        AppEnvironment.mixpanel = window.mixpanel;
+        AppEnvironment.storeLogs = utils.getURLParameter('3PJS-store-logs') === 'true';
 
         AppEnvironment.WindowView = new Backbone.NativeView({ el : window });
         AppEnvironment.AppLog = AppLog;

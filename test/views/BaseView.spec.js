@@ -21,7 +21,7 @@ describe('BaseView', function () {
         var l = new Listener();
         l.on('proxyEvent', l.proxyCallback, l);
         this.BaseView = new BaseView({
-            el : document.querySelector('#bv-test-div'),
+            el : document.querySelector('#app-test-div'),
             parent : { name : 'TestParent' },
             listenTo : {
                 testEvent : {

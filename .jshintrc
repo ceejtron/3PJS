@@ -8,5 +8,5 @@
     "undef" : true,
     "unused" : true,
     "strict" : false,
-    "predef" : ["define", "require", "bvSEOEnv"]
+    "predef" : ["define", "require", "AppEnvironment"]
 }

@@ -80,10 +80,6 @@ module.exports = function (grunt) {
                     {
                         src : '.tmp/main-built.js',
                         dest : '<%= yeoman.dist %>/scripts/main.js'
-                    },
-                    {
-                        src : '.tmp/main-dynamic-built.js',
-                        dest : '<%= yeoman.dist %>/scripts/main-dynamic.js'
                     }
                 ]
             }
@@ -91,7 +87,7 @@ module.exports = function (grunt) {
         cssmin : {
             dist : {
                 files : {
-                    '<%= yeoman.dist %>/styles/theme1.css' : [
+                    '<%= yeoman.dist %>/styles/style.css' : [
                         '.tmp/styles/{,*/}style.css',
                         '<%= yeoman.app %>/styles/{,*/}style.css'
                     ]
