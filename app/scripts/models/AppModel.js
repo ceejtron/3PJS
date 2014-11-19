@@ -1,5 +1,4 @@
 var BaseModel = require('models/BaseModel');
-var _ = require('underscore');
 
 module.exports = BaseModel.extend({
     // Set default properties for the App
@@ -7,6 +6,9 @@ module.exports = BaseModel.extend({
         name : 'AppModel'
     },
     initialize : function (config) {
+        if (config) {
+            // Do stuff with config if necessary
+        }
         this.set('CurrentTime', (new Date()).toTimeString());
     }
 });

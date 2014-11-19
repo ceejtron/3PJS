@@ -1,6 +1,7 @@
-/* global before, describe, assert, it, AppEnvironment, _ */
+/* global before, describe, assert, it, AppEnvironment */
 var BaseModel = require('models/BaseModel');
 var BaseView = require('views/BaseView');
+var _ = require('underscore');
 
 describe('Logging Mixin', function () {
 

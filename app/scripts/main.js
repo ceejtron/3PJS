@@ -6,7 +6,6 @@ require('helpers/init').init();
 var domReady = require('helpers/domReady');
 var AppModel = require('models/AppModel');
 var AppView = require('views/AppView');
-var Backbone = require('backbone');
 var AppLog = AppEnvironment.AppLog;
 
 

@@ -22,7 +22,7 @@ module.exports = function (grunt) {
         aws_s3 : require('./config/grunt/aws_s3')(grunt),
         githooks : {
             options : {
-                dest : '../.git/hooks'
+                dest : '.git/hooks'
             },
             all : {
                 'pre-commit' : 'style test'

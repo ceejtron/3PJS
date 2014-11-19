@@ -1,5 +1,6 @@
-/* global before, describe, it, AppEnvironment, _ */
+/* global before, describe, it, AppEnvironment */
 var domReady = require('helpers/domReady');
+var _ = require('underscore');
 
 describe('AppView', function () {
 
