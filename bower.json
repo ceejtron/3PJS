@@ -1,0 +1,15 @@
+{
+  "name": "seorec",
+  "version": "0.0.0",
+  "devDependencies": {
+    "underscore": "~1.6.0",
+    "underscore.deferred": "*",
+    "chai": "~1.8.0",
+    "mocha": "~1.14.0",
+    "backbone": "1dbe3ddf2f",
+    "backbone.nativeview": "~0.3.2"
+  },
+  "dependencies": {
+    "moment" : "~2.8.3"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "project_name",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.3.1",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-mocha": "~0.4.9",
+    "grunt-open": "~0.2.3",
+    "load-grunt-tasks": "~0.3.0",
+    "connect-livereload": "~0.3.2",
+    "time-grunt": "~0.2.8",
+    "jshint-stylish": "~0.1.5",
+    "browserify": "^5.10.0",
+    "grunt-browserify": "^2.1.4",
+    "debowerify": "^0.8.1",
+    "handlebars": "^2.0.0-alpha.4",
+    "esprima": "^1.2.2",
+    "connect-gzip": "^0.1.6",
+    "browserify-compile-templates": "^0.1.2",
+    "jscs": "^1.5.9",
+    "grunt-jscs": "^0.7.1",
+    "grunt-githooks": "^0.3.1",
+    "grunt-aws-s3": "^0.9.3",
+    "falafel": "^0.3.1",
+    "through": "^2.3.6"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
