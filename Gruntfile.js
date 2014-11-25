@@ -14,6 +14,8 @@ module.exports = function (grunt) {
         dist : 'dist'
     };
 
+    var browserName = grunt.file.exists('./config/grunt/browser.js') ? require('./config/grunt/browser')(grunt).browser : undefined;
+
     grunt.initConfig({
         yeoman : yeomanConfig,
         watch : require('./config/grunt/watch')(grunt, LIVERELOAD_PORT),
@@ -30,10 +32,12 @@ module.exports = function (grunt) {
         },
         open : {
             server : {
-                path : 'http://localhost:<%= connect.options.port %>?3PJS-debug=true'
+                path : 'http://localhost:<%= connect.options.port %>?3PJS-debug=true',
+                app : browserName
             },
             test : {
-                path : 'http://localhost:<%= connect.test.options.port %>'
+                path : 'http://localhost:<%= connect.test.options.port %>',
+                app : browserName
             }
         },
         clean : {

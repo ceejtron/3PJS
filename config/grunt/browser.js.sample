@@ -1,0 +1,5 @@
+module.exports = function (grunt) {
+    return {
+        browser : 'Chrome' // Change to whatever browser you want to open.
+    }
+}

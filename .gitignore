@@ -1,5 +1,6 @@
 app/bower_components
 config/aws/s3config.json
+config/grunt/browser.js
 dist
 node_modules
 *.iml
