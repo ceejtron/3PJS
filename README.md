@@ -66,3 +66,7 @@ grunt deploy --release-version=<version number>
 ```
 
 This will build the production version of the app and upload the associated files to the configured S3 bucket under a directory with the version number specified in the grunt task ex: "myapp/v1/.
+
+## Copyright and license
+
+Code copyright 2014 Christian Johannessen. Code released under [the MIT license](https://github.com/ceejtron/3PJS/blob/master/LICENSE).
