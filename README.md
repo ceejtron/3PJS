@@ -36,7 +36,7 @@ mm.log('lol'); // This works even though there is no 'log' function defined in B
 #### Styles
 All styling for this app is in plain CSS all currently housed in [styles](app/styles).
 
-Clients injecting this app can override styles using their own hosted CSS. An example of how to do this is located [here](app/styles/override-sample.css).
+Currently this template doesn't do any kind of cleanslating of it's styles, as the styles inteded to be overriden by clients directly. This will likely change in the near future.
 
 #### Unit Tests
 
