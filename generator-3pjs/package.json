@@ -1,0 +1,14 @@
+{
+  "name": "generator-3pjs",
+  "version": "0.0.0",
+  "description": "A lightweight javascript project template for building embeddable javascript applications.",
+  "main": "index.js",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Christian Johannessen",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^0.18.5"
+  }
+}
