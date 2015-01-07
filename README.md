@@ -31,7 +31,7 @@ To generate a new view run: `yo 3pjs:view <view_name>`. Ex: `yo 3pjs:view TestVi
 
 ##### Mixins
 
-Mixins encompass functionality that can be "mixed-in" to either a Model or a View. For example the [Logging](app/scripts/mixins/Logging.js) mixin exposes logging capability. Because both BaseModel and BaseView `extend(Logging)` any descendent of those objects will be able to call the logging methods directly.
+Mixins encompass functionality that can be "mixed-in" to either a Model or a View. For example the [Logging](generator-3pjs/resources/app/scripts/mixins/Logging.js) mixin exposes logging capability. Because both BaseModel and BaseView `extend(Logging)` any descendent of those objects will be able to call the logging methods directly.
 
 Example:
 ```
