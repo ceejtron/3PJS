@@ -2,12 +2,9 @@ module.exports = function (grunt, LIVERELOAD_PORT) {
     return {
         options : {
             nospawn : true,
-            livereload : true
+            livereload : LIVERELOAD_PORT
         },
         livereload : {
-            options : {
-                livereload : grunt.option('livereloadport') || LIVERELOAD_PORT
-            },
             files : [
                 '<%= yeoman.app %>/*.html',
                 '{.tmp,<%= yeoman.app %>}/styles/{,*/}*.css',
