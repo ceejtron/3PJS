@@ -49,7 +49,7 @@ Currently this template doesn't do any kind of cleanslating of it's styles, as t
 
 #### Unit Tests
 
-A suite of Unit Tests have been written in the [test directory](generator-3pjs/resources/test) for every Model, View, and Mixin. The tests are written using the [Mocha](http://visionmedia.github.io/mocha/) framework. For any newly added Model, View, or Mixin, a unit test will be generated automatically (and should be fleshed out by the developer). Tests can be run in the browser by running `grunt serve:test` or `grunt test` to run in phantomjs (headless browser).
+A suite of Unit Tests have been written in the [test directory](generator-3pjs/resources/test) for every Model, View, and Mixin. The tests are written using the [Mocha](http://mochajs.org/) framework. For any newly added Model, View, or Mixin, a unit test will be generated automatically (and should be fleshed out by the developer). Tests can be run in the browser by running `grunt serve:test` or `grunt test` to run in phantomjs (headless browser).
 
 ## Running your App
 To run a copy of the app locally simply run: `grunt serve` from the root directory. This will build a Dev version of the app (not minified) and open up a browser pointing to the sample page. If you make any changes to code, markup, or styles, the app will automatically be rebuilt and the browser will update with the changes.
